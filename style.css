@@ -65,11 +65,14 @@
         color: #555;
     }
 
-    .btn{
-        width: 10vh;
-        height: 10vh;
+    .container .but .btn{
+        width: 15vh;
+        height: 15vh;
         margin: 2vh;
         
+    }
+    .container .mask{
+        width: 100%;
     }
 
 }
@@ -84,7 +87,11 @@
     align-items: center;
 }
 
-
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /*Card*/
