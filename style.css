@@ -1,0 +1,266 @@
+.hero{
+    background-image: url('https://miguiaargentina.com.ar/Imagenes/b/769790572-1-powerwash-lavadero-de-autos.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+
+
+.navbar {
+    transition: all 0.4s;
+    
+}
+
+.navbar .nav-link {
+    color: #f3a217;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #f3a217;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #f3a217;
+}
+.navbar .navbar-brand:hover{
+    color:#f3a217 ;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #f3a217;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555555d4;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+.navbar .active:hover{
+    background-color:#f3a217 ;
+    color: rgb(0, 0, 0);
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #f3a217;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+/*Botones de hero*/
+.btn{
+    width: 20vh;
+    height: 20vh;
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*Card*/
+
+.card{
+    width: 100vh;
+    height: 40vh;
+    
+}
+
+.container .card-image{
+    height: 45vh;
+}
+.card .row .card-img-top{
+    
+    background-size: cover;
+}
+
+
+
+
+/*Footer*/
+.red{
+    width: 7vh;
+    height: 7vh;
+   
+}
+#reg{
+    width: 15vh;
+    height: 5vh;
+    margin: 2px;
+    font-size: 2vh !important;
+    display: flex;
+    align-items: center;
+}
+#inicio{
+    width: 20vh;
+    height: 5vh;
+    margin: 2px;
+    font-size: 2vh !important;
+    display: flex;
+    align-items: center;
+}
+
+/*Banner ancho*/
+*{
+    font-family: 'Andika';
+    /* font-family: 'Caveat'; */
+    
+    /* font-family: 'Playfair Display'; */
+}
+.ancho{
+    margin-top: 3vh;
+    padding: 3vh 0;
+    background-color: #fabf59;
+    width: 100%;
+    height: auto;
+}
+.ancho .an{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Bene*/
+.co{
+    margin: 2vh;
+    background-color: #555;
+    width: 10vh;
+    height: 10vh;
+}
+#bene{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(30vh, auto);
+}
+#c1{
+    
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: auto;
+    width: auto;
+    background-color: aqua;
+}
+
+#c1 img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60vh;
+    height: 60vh;
+}
+
+#c2{
+    /* background-image: url("./img/lavadero.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column:2/5;
+    grid-row: 1/3;
+    
+    height: auto;
+    width: auto;
+    background-color: #fabf59;
+}
+
+#c3{
+    grid-column:1/3;
+    grid-row: 3/5;
+    height: auto;
+    width: auto;
+    background-color: #7c59fa;
+}
+
+#c3 img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+}
+#c4{
+
+    grid-column:3/4;
+    grid-row: 3/5;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    border-color: #f3a217;
+    border:2px solid #f3a217;
+}
+#c4 ul{
+    list-style: none;
+    
+    padding: 4vh 2vh 2vh 2vh;
+    
+    
+}
+#c4 ul li{
+    display: flex;
+    justify-content: right;
+    /* font-size: 2vh; */
+    font-size:  clamp(0.2rem, 1vw, 2rem);
+}
+.z{
+    padding-top: 8px;
+    color: #f3a217;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    #c1{
+        grid-column: 1/5;
+        grid-row: 1/3;
+    }
+
+    #c1 img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 60vh;
+    }
+    #c2{
+        grid-column: 1/5;
+        grid-row: 3/5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #c2 img{
+        height: 50vh;
+        width: 70vh;
+    }
+  
+    #c4{
+        grid-column: 1/5;
+        grid-row: 5/7;
+    }
+    #c3{
+        grid-column: 1/5;
+        grid-row: 7/9;
+    }
+    #c4 ul li{
+       
+        font-size:  clamp(0.2rem, 4vw, 2.5rem);
+    }
+    
+}
