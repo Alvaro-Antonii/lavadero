@@ -28,6 +28,19 @@
     color:#f3a217 ;
 }
 
+.modal .modal-content{
+    margin: auto;
+    width: 90%;
+
+}
+.modal img{
+    height: 40vh;
+    width: 40vh;
+}
+.modal-footer .m{
+    width: 15vh;
+    height: 6vh;
+}
 
 /* Change navbar styling on scroll */
 .navbar.active {
@@ -54,8 +67,32 @@
     color: rgb(0, 0, 0);
 }
 
-/* Change navbar styling on small viewports */
-@media (max-width: 991.98px) {
+/*Change navbar styling on small viewports*/
+/* @media (max-width: 700.98px) {
+
+    .navbar {
+        background: #f3a217;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+
+    .container .but .btn{
+        width: 28vh;
+        height: 28vh;
+        margin: 2vh;
+        font-size: 3.5vh;
+    }
+   
+    .container .mask{
+        width: 100%;
+        margin-top: 3vh;
+    }
+
+} */
+
+@media (max-width: 300.98px) {
 
     .navbar {
         background: #f3a217;

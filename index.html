@@ -52,15 +52,23 @@
                 <div class="container ">
                     <div class="row">
                         <div class="col but"><a class="btn btn-outline-light btn-lg d-flex align-items-center" href="#!"
-                                role="button">Básico</a></div>
+                                role="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                data-bs-whatever="Básico" im="https://assets.entrepreneur.com/content/3x2/2000/20170327170002-lavado-autos.jpeg?crop=16:9" des = "descripcion"
+                                 >Básico</a></div>
                         <div class="col but"><a class="btn btn-outline-light btn-lg d-flex align-items-center" href="#!"
-                                role="button">Full</a></div>
+                                role="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                data-bs-whatever="Full" im="https://static.landkit.engeni.com/assets/1048/46ad99ad-b4d1-46a8-8bc2-2ceed030e8ac/15bee50e172e54562b19.jpg" des = "descripcion"
+                                >Full</a></div>
                     </div>
                     <div class="row">
                         <div class="col but"><a class="btn btn-outline-light btn-lg d-flex align-items-center" href="#!"
-                                role="button">Semi Completo</a></div>
+                                role="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                data-bs-whatever="Semi Completo" im="https://grupormultimedio.com/wp-content/uploads/2023/05/lavadero-autos.jpg" des = "descripcion"
+                                >Semi Completo</a></div>
                         <div class="col but"><a class="btn btn-outline-light btn-lg d-flex align-items-center" href="#!"
-                                role="button">Completo</a></div>
+                                role="button" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                data-bs-whatever="Completo" im="https://a.mktgcdn.com/p/KrT9llqJO6R7rJGtSh6Q2ggZ2spXMdskmvAAO5peeYc/720x720.jpg" des = "descripcion"
+                                >Completo</a></div>
                     </div>
                 </div>
             </div>
@@ -69,7 +77,42 @@
     </section>
 
     <!-- Hero -->
+    <!----Modal------>
 
+
+
+
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Modo</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <img src="" alt="" srcset="" id="imser">
+                </div>
+                <div class="mb-3">
+                  <p id="message-text"></p>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary m" data-bs-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary m">Turno</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <!--------------->
 
     <!--Card1--->
 
@@ -154,16 +197,39 @@
             <div class="co" id="c3">
                 <img src="https://infofunes.com.ar/uploads/lavadero%20foto.jpeg" alt="" srcset="">
             </div>
-            <div class="co" id="c4">
-                <ul>
-                    <li style="display: block"><a class="red btn text-white  rounded-circle " style="background-color: #efe2de;" href="#!"
-                        role="button"><i class="fa fa-recycle z" aria-hidden="true" ></i></a>REHUSO DE AGUA</li>
-                    <li style="display: block"><a class="red btn text-white  rounded-circle " style="background-color: #f1e9e7;" href="#!"
-                            role="button"><i class="fa fa-tint z" aria-hidden="true"></i></a>AGUA APLICADA CON PRECISIÓN</li>
-                    <li style="display: block"><a class="red btn text-white  rounded-circle " style="background-color: #ede5e3;" href="#!"
-                                role="button"><i class="fa fa-globe z" aria-hidden="true"></i></a>LAVADO ECOLÓGICO</li>
-                    <li style="display: block"><a class="red btn text-white  rounded-circle " style="background-color: #e5d9d5;" href="#!"
-                                    role="button"><i class="fa fa-clock-o z" aria-hidden="true"></i></a>MAYOR TIEMPO DE LAVADO</li>
+            <div class="co" id="c4" >
+                <ul >
+                    <li style="display: block" >
+                        <div data-aos="fade-up" data-aos-duration="2500">
+                            <a class="red btn text-white  rounded-circle " style="background-color: #efe2de;" href="#!"
+                        role="button" ><i class="fa fa-recycle z" aria-hidden="true" ></i></a >REHUSO DE AGUA
+
+                        </div>
+                    </li>
+                    <li style="display: block">
+                        <div data-aos="fade-up" data-aos-duration="2000">
+                            <a class="red btn text-white  rounded-circle " style="background-color: #f1e9e7;" href="#!"
+                            role="button">
+                            <i class="fa fa-tint z" aria-hidden="true"></i></a>AGUA APLICADA CON PRECISIÓN
+                   
+
+                        </div>
+                        </li>
+                    <li style="display: block">
+                        <div data-aos="fade-up" data-aos-duration="1500">
+                            <a class="red btn text-white  rounded-circle " style="background-color: #ede5e3;" href="#!"
+                            role="button"><i class="fa fa-globe z" aria-hidden="true"></i></a>LAVADO ECOLÓGICO
+        
+
+                        </div>
+                        </li>
+                    <li style="display: block">
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <a class="red btn text-white  rounded-circle " style="background-color: #e5d9d5;" href="#!"
+                            role="button"><i class="fa fa-clock-o z" aria-hidden="true"></i></a>MAYOR TIEMPO DE LAVADO
+          
+                        </div>
+                    </li>
                 </ul>
             </div>
             
