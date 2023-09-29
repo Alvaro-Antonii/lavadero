@@ -151,6 +151,156 @@
 
 
 
+/*Auto y agua*/
+/*BANNER*/
+
+.container__banner{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.banner{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    background: #f3a217;
+    position: relative;
+}
+
+.banner .icon{
+    width: 40%;
+}
+
+
+.banner .text{
+    width: 60%;
+    position: relative;
+}
+
+.banner .text h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner .text input{
+    margin-top: 20px;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 300ms;
+}
+
+
+
+.img__icon-agua{
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    overflow: hidden;
+}
+
+#icon_auto{
+    width: 400px;
+    margin-top: 80px;
+    position: relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+}
+#icon_agua{
+    width: 300px;
+    position: relative;
+    margin-top: -100px;
+    opacity: 0.6;
+}
+
+@media (max-width: 720.98px) {
+
+    #icon_auto{
+        width: 40vh;
+        margin-top: 25vh;
+        position: relative;
+        filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+    }
+
+    #icon_agua{
+        width: 30vh;
+        position: relative;
+        margin-top: -10vh;
+        opacity: 0.6;
+    }
+
+    .banner .text h2{
+        color: white;
+        font-size: 3vh;
+        font-weight: 400;
+    }
+
+    .img__icon-agua{
+        height: 100%;
+        position: absolute;
+        right: 1px;
+        overflow: hidden;
+    }
+}
+
+/*a y b*/
+.x{
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+}
+.a .txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3ebe1;
+    width: 50vh;
+    height: 80vh;
+}
+#letras{
+    width: 400px;
+    margin-top: 660px;
+    position: relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+}
+.b{
+   
+    background-color: transparent;
+    border: 2px solid #f3a217 ;
+    width: 50vh;
+    height: 80vh;
+    padding: 3vh;
+    
+     
+}
+.b h3{
+    color: #f3a217;
+}
+.a .b{
+    margin: 3px;
+}
+
+@media (max-width: 720.98px) {
+    .a .txt{
+        width: 50vh;
+        height: 40vh;
+        margin: 10vh;
+    }
+    .b{
+   
+        
+        height: 30vh;
+    }
+
+}
+
+
+
+
 /*Footer*/
 .red{
     width: 7vh;

@@ -35,3 +35,17 @@ if (exampleModal) {
     modalBodyInput.value = recipient
   })
 }
+
+
+window.onscroll = function(){
+
+  var posicion = window.pageYOffset || document.documentElement.scrollTop;
+
+  var elemento1 = document.getElementById("icon_auto");
+  var elemento2 = document.getElementById("icon_agua");
+  var elemento3 = document.getElementById("letras");
+
+  elemento1.style.bottom = posicion * 0.2 + "px";
+  elemento2.style.top = posicion * 0.1 + "px";
+  elemento3.style.bottom = posicion * 0.4 + "px";
+}
