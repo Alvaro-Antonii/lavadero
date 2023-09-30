@@ -363,16 +363,14 @@
 @media (max-width: 420.98px) {
 
     
-
-
     .a .txt{
-        width: 40vh;
+        width: 30vh;
         height: 40vh;
         margin: 10vh;
     }
     
     #letras{
-        width: 300px;
+        width: 280px;
         margin-top: 660px;
         
     }
@@ -380,10 +378,10 @@
    
         background-color: transparent;
         border: 2px solid #f3a217 ;
-        width: 20vh;
-        height: 40vh;
+        width: 10vh;
+        height: 30vh;
         padding: 1vh;
-        margin: 1vh;
+        margin: 2vh;
         
          
     }
