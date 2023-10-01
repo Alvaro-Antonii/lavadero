@@ -12,20 +12,20 @@
 }
 
 .navbar .nav-link {
-    color: #f3a217;
+    color: #F97B22;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #f3a217;
+    color: #F97B22;
     text-decoration: none;
 }
 
 .navbar .navbar-brand {
-    color: #f3a217;
+    color: #F97B22;
 }
 .navbar .navbar-brand:hover{
-    color:#f3a217 ;
+    color:#F97B22;
 }
 
 .modal .modal-content{
@@ -44,12 +44,12 @@
 
 /* Change navbar styling on scroll */
 .navbar.active {
-    background: #f3a217;
+    background: #F97B22;
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar.active .nav-link {
-    color: #555555d4;
+    color: #FEE8B0;
 }
 
 .navbar.active .nav-link:hover,
@@ -59,11 +59,11 @@
 }
 
 .navbar.active .navbar-brand {
-    color: #555;
+    color: #FEE8B0;
 }
 
 .navbar .active:hover{
-    background-color:#f3a217 ;
+    background-color:#F97B22;
     color: rgb(0, 0, 0);
 }
 
@@ -75,7 +75,7 @@
     } */
 
     .navbar .navbar-brand, .navbar .nav-link {
-        color: #f3a217;
+        color: #F97B22;
     }
 
     .container .but .btn{
@@ -100,7 +100,7 @@
     } */
 
     .navbar .navbar-brand, .navbar .nav-link {
-        color: #f3a217;
+        color: #F97B22;
     }
 
     .container .but .btn{
@@ -164,7 +164,7 @@
     height: 250px;
     display: flex;
     align-items: center;
-    background: #f3a217;
+    background: #9CA777;
     position: relative;
 }
 
@@ -223,7 +223,7 @@
         height: 200px;
         display: flex;
         align-items: center;
-        background: #f3a217;
+        background: #9CA777;
         position: relative;
     }
     .banner .icon{
@@ -290,7 +290,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f3ebe1;
+    background-color: #FEE8B0;
     width: 50vh;
     height: 80vh;
 }
@@ -303,7 +303,7 @@
 .b{
    
     background-color: transparent;
-    border: 2px solid #f3a217 ;
+    border: 2px solid #F97B22 ;
     width: 50vh;
     height: 80vh;
     padding: 3vh;
@@ -311,7 +311,7 @@
      
 }
 .b h3{
-    color: #f3a217;
+    color: #7C9070;
 }
 .a .b{
     margin: 3px;
@@ -340,7 +340,7 @@
     .b{
    
         background-color: transparent;
-        border: 2px solid #f3a217 ;
+        border: 2px solid #F97B22  ;
         width: 15vh;
         height: 40vh;
         padding: 2vh;
@@ -377,7 +377,7 @@
     .b{
    
         background-color: transparent;
-        border: 2px solid #f3a217 ;
+        border: 2px solid #F97B22  ;
         width: 10vh;
         height: 30vh;
         padding: 0 0 0 0;
@@ -426,9 +426,15 @@
 .ancho{
     margin-top: 3vh;
     padding: 3vh 0;
-    background-color: #fabf59;
+    background-color: #F97B22;
     width: 100%;
     height: auto;
+}
+.ancho h4{
+    color:#7C9070;
+}
+.ancho p{
+    color:#FEE8B0;
 }
 .ancho .an{
     display: flex;
@@ -443,6 +449,9 @@
     background-color: #555;
     width: 10vh;
     height: 10vh;
+}
+.co .tex-m{
+    color:#7C9070;
 }
 #bene{
     margin-top: 10vh;
@@ -474,7 +483,7 @@
     
     height: auto;
     width: auto;
-    background-color: #fabf59;
+    background-color: #FEE8B0;
 }
 #c2 img{
     
@@ -505,8 +514,8 @@
     height: auto;
     width: auto;
     background-color: transparent;
-    border-color: #f3a217;
-    border:2px solid #f3a217;
+    border-color: #F97B22;
+    border:2px solid #F97B22;
 }
 #c4 ul{
     list-style: none;
@@ -523,7 +532,7 @@
 }
 .z{
     padding-top: 8px;
-    color: #f3a217;
+    color: #F97B22;
 }
 
 /* Change navbar styling on small viewports */
