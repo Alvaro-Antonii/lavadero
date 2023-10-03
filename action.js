@@ -1,14 +1,32 @@
+//Efecto nav background
+
 $(function () {
     $(window).on('scroll', function () {
         if ( $(window).scrollTop() > 10 ) {
-            $('.navbar').addClass('active');
+            $('.na').addClass('active');
             $('.ini').addClass('active');
         } else {
-            $('.navbar').removeClass('active');
+            $('.na').removeClass('active');
             $('.ini').removeClass('active');
         }
     });
 });
+
+//Funcionalidad de toggle
+$(function() {
+  $(".toggle").on("click", function() {
+      if ($(".item").hasClass("active")) {
+          $(".item").removeClass("active");
+          $(this).find("a").html("<i class='fa fa-bars'></i>");
+      } else {
+          $(".item").addClass("active");
+          $(this).find("a").html("<i class='fa fa-times'></i>");
+      }
+  });
+});
+
+
+
 
 
 /*Modal*/
@@ -36,6 +54,7 @@ if (exampleModal) {
   })
 }
 
+//Efecto parallax
 
 window.onscroll = function(){
 
